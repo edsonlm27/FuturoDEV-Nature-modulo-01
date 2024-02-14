@@ -1,0 +1,14 @@
+//Crie uma função nomeada que recebe um número e devolva uma string dizendo se é par ou ímpar.
+
+const prompt = require("prompt-sync")();
+let numero = prompt("Digite um número: ");
+
+function verificarParidadeNumero() {
+  if (numero % 2 == 0) {
+    console.log("O número é par.");
+  } else {
+    console.log("O número é ímpar.");
+  }
+}
+
+verificarParidadeNumero();

@@ -1,0 +1,15 @@
+{
+  "name": "futurodev-nature-modulo-01",
+  "version": "1.0.0",
+  "description": "Turma-Sesi-Senai-SC/LAB365/Floripa-Mais-Tech/2023/2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
