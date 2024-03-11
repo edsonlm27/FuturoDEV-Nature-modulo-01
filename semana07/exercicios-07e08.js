@@ -36,6 +36,16 @@ class Cliente extends Pessoa {
     super(nome, idade, profissao);
     this.telefone = telefone;
     this.email = email;
-    this.clienteDesde = "2024-03-08";
+    this.clienteDesde = clienteDesde;
   }
 }
+
+const clienteTeste = new Cliente(
+  "Alessandra",
+  27,
+  "Designer",
+  "48987654321",
+  "alessandra@email.com",
+  "2024-03-08"
+);
+console.log(clienteTeste);
